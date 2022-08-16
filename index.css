@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: roboto slab;
+
+}
+
+.body{
+   
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+
+    
+    
+    text-align: center;
+}
+
+.secondcontainer{
+    width:fit-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+    width:550px;
+    height: 500px;
+    position: relative;
+    border-radius: 12px;
+    background-color: rgb(215, 247, 247);
+}
+
+
+
+
+.heading{
+    color:rgb(174, 93, 250);
+    position:absolute;
+    top:30px;
+    
+    
+    
+}
+
+.label1{
+    margin-top: 30px;
+    margin: 0px 0px;
+    font-weight: bold;
+    color:rgb(180, 115, 241);
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.dob{
+    
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+.lucky{
+    text-align: center;
+}
+
+.label2{
+    margin: 0px 0px;
+    font-weight: bold;
+    color:rgb(180, 115, 241);
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.lucky{
+    font-size: 20px;
+    border-radius:6px;
+
+}
+
+.check-btn{
+    color:rgb(38, 5, 70);
+    font-size: 20px;
+    width:130px;
+    margin-top:35px;
+    border-radius:6px;
+    font-weight: bold;
+    background-color:rgb(170, 87, 248); ;
+}
+
+.result{
+    margin-top:30px;
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(101, 155, 235);
+}
+
+
+.comment{
+    margin-top:0px;
+    font-size: 18px;
+    margin-bottom: 22px;
+    color:rgb(238, 23, 23);
+}
